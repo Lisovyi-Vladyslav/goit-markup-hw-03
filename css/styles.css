@@ -14,17 +14,13 @@
      --hero-bg-btn-col: #2196F3;
  }
 
- *,
- *::before,
- *::after {
-     box-sizing: border-box;
- }
+
 
  body {
      font-family: var(--main-font);
 
      color: var(--secondary-txt-col);
-     margin: 0px;
+
  }
 
  /*контейнер*/
@@ -155,15 +151,11 @@
 
  /*підвал*/
  .footer {
-     padding-top: 10px;
-     height: 250px;
-
-
+     min-height: 250px;
  }
 
  .footer .container {
      margin-top: 60px;
-     display: flex;
      display: block;
  }
 
