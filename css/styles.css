@@ -132,6 +132,10 @@
      margin-right: 0px;
  }
 
+ .txt-what-we-do {
+     padding: 30px 55px;
+ }
+
  /*наша команда*/
  .section-our-team {
      background: #F5F4FA;
@@ -168,7 +172,7 @@
 
  /*підвал*/
 
- .footer {
+ .container.footer {
      padding-top: 64px;
      padding-bottom: 56px;
  }
@@ -188,8 +192,8 @@
      border-top-width: 1px;
      border-top-style: solid;
      border-top-color: #ECECEC;
-     padding-top: 104px;
-     padding-bottom: 84px;
+     padding-top: 100px;
+     padding-bottom: 100px;
  }
 
  .container.filters .list {
@@ -438,7 +442,7 @@
  }
 
  .txt-post {
-
+     margin: 0px;
      line-height: 1.19;
      text-align: center;
      letter-spacing: 0.03em;
@@ -502,7 +506,8 @@
  }
 
  .title-name {
-
+     margin: 0px;
+     margin-bottom: 10px;
      font-weight: 500;
      font-size: 16px;
      line-height: 1.19;
