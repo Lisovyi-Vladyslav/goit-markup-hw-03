@@ -99,6 +99,11 @@
      margin-right: 0px;
  }
 
+ .section-preference .txt {
+     margin: 0px;
+
+ }
+
  /*Чем мы занимаемся*/
  .section-what-we-do {
      padding-bottom: 90px;
@@ -338,7 +343,9 @@
  }
 
  .link.footer {
-     color: var(--secondary-txt-col);
+     color: rgba(255, 255, 255, 0.6);
+     font-family: 'Roboto';
+     font-style: normal;
      font-weight: 400;
      font-size: 14px;
      line-height: 1.71;
@@ -476,6 +483,9 @@
  }
 
  .title-preference {
+     margin: 0px;
+     margin-bottom: 10px;
+
      font-family: var(--main-font);
      font-weight: 700;
      font-size: 14px;
